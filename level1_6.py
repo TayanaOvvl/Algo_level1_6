@@ -15,7 +15,7 @@ def WordSearch(length, s, subs):
             lastSpacePosition = position
         
         
-        if position - firstPosition == 13:    
+        if position - firstPosition == length + 1:    
         
             if lastSpacePosition == -1:
         
